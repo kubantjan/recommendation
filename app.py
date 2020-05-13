@@ -16,7 +16,7 @@ def update():
     update_cathegory_statistics()
 
 
-@app.route('/<usr_id>', methods=['GET'])
+@app.route('/predict/<usr_id>', methods=['GET'])
 def predict(usr_id):
     return prediction_for_user(usr_id)
 
