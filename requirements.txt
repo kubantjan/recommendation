@@ -4,17 +4,33 @@
 #
 #    pip-compile
 #
-certifi==2020.4.5.1       # via requests
-chardet==3.0.4            # via requests
-click==7.1.1              # via flask
-flask==1.1.2              # via -r requirements.in
-idna==2.9                 # via requests
-itsdangerous==1.1.0       # via flask
-jinja2==2.11.2            # via flask
-lightfm==1.15             # via -r requirements.in
-markupsafe==1.1.1         # via jinja2
-numpy==1.18.4             # via lightfm, scipy
-requests==2.23.0          # via lightfm
-scipy==1.4.1              # via lightfm
-urllib3==1.25.9           # via requests
-werkzeug==1.0.1           # via flask
+certifi==2020.4.5.1
+    # via requests
+chardet==3.0.4
+    # via requests
+click==7.1.1
+    # via flask
+flask==1.1.2
+    # via -r requirements.in
+idna==2.9
+    # via requests
+itsdangerous==1.1.0
+    # via flask
+jinja2==2.11.2
+    # via flask
+lightfm==1.15
+    # via -r requirements.in
+markupsafe==1.1.1
+    # via jinja2
+numpy==1.25.0
+    # via
+    #   lightfm
+    #   scipy
+requests==2.23.0
+    # via lightfm
+scipy==1.10.0
+    # via lightfm
+urllib3==1.25.9
+    # via requests
+werkzeug==1.0.1
+    # via flask
